@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Github, BookOpen } from 'lucide-react';
-import hybridEngineImg from '../assets/hybrid-engine-cover.png';
+import hybridEngineImg from '../assets/preview/hybrid-engine_preview_1.png';
 import appIcon from '../assets/app_icon.png';
 import { siteConfig } from '../config/siteConfig';
 
