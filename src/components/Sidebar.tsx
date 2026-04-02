@@ -74,9 +74,10 @@ export function Sidebar({ activeSection }: SidebarProps) {
             <a
               href={siteConfig.docsRoot}
               className="flex w-full items-center gap-3 rounded-lg bg-[#5B21B6] px-4 py-3 text-sm font-medium text-white shadow-sm transition-all hover:bg-[#6D28D9]"
+              style={{ color: '#FFFFFF' }}
             >
-              <BookOpen className="w-4 h-4 flex-shrink-0" />
-              <span>Full Documentation</span>
+              <BookOpen className="h-4 w-4 flex-shrink-0 text-white" />
+              <span className="text-white">Full Documentation</span>
             </a>
           </div>
         </nav>

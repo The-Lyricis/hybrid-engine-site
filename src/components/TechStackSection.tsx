@@ -124,8 +124,8 @@ export function TechStackSection() {
               { step: '3', title: 'Build', command: 'cmake --build build' },
               { step: '4', title: 'Run', command: './build/Editor' }
             ].map((item, index) => (
-              <div key={item.step} className="relative">
-                <div className="absolute -top-3 -left-3 w-8 h-8 rounded-full bg-[#64FFDA] text-[#0A192F] font-bold flex items-center justify-center text-sm">
+              <div key={item.step} className="relative pt-4 pl-4">
+                <div className="absolute left-0 top-0 z-10 flex h-8 w-8 items-center justify-center rounded-full bg-[#64FFDA] text-sm font-bold text-[#0A192F] shadow-lg shadow-[#64FFDA]/20">
                   {item.step}
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:bg-white/15 transition-colors">

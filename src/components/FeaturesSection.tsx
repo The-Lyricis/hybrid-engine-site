@@ -289,9 +289,10 @@ export function FeaturesSection() {
           <a
             href={siteConfig.docsRoot}
             className="inline-flex items-center gap-3 rounded-xl bg-gradient-to-r from-[#5B21B6] to-[#7C3AED] px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl"
+            style={{ color: '#FFFFFF' }}
           >
-            <span>View Detailed Feature Documentation</span>
-            <ArrowRight className="h-5 w-5" />
+            <span className="text-white">View Detailed Feature Documentation</span>
+            <ArrowRight className="h-5 w-5 text-white" />
           </a>
           <p className="mt-4 text-sm text-gray-500">
             Explore in-depth explanations, code examples, and architecture details.
