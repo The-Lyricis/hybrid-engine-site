@@ -73,7 +73,7 @@ export function Sidebar({ activeSection }: SidebarProps) {
           <div className="mt-6 pt-6 border-t border-gray-200">
             <a
               href={siteConfig.docsRoot}
-              className="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium text-white bg-gradient-to-r from-[#5B21B6] to-[#7C3AED] shadow-md hover:shadow-lg transition-all"
+              className="flex w-full items-center gap-3 rounded-lg bg-[#5B21B6] px-4 py-3 text-sm font-medium text-white shadow-sm transition-all hover:bg-[#6D28D9]"
             >
               <BookOpen className="w-4 h-4 flex-shrink-0" />
               <span>Full Documentation</span>
