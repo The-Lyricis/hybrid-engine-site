@@ -141,9 +141,6 @@ export function HeroSection() {
                   }`}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent" />
-                <div className="absolute bottom-5 left-5 rounded-full border border-white/15 bg-black/35 px-3 py-1 text-xs font-medium tracking-[0.2em] text-[#E6F1FF]/85 backdrop-blur-sm">
-                  NEXT PREVIEW
-                </div>
               </div>
             </motion.button>
 
